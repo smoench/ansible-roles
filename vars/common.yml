@@ -1,9 +1,23 @@
 ---
     php_ppa: php5-5.6
     doc_root: /vagrant/web
-    sys_packages: ["git","vim","htop"]
+    sys_packages:
+        - git
+        - vim
+        - htop
     dist: precise
-    php_packages: ["php5-cli","php5-curl","php5-intl","php5-memcached","php5-mysql"]
+    php_packages:
+        - php5-cli
+        - php5-curl
+        - php5-intl
+        - php5-memcached
+        - php5-mysql
     pecl_packages: []
-    npm_packages: ["bower"]
-    gem_packages: ["sass", "compass"]
+    npm_packages: 
+        - bower
+        - babel
+        - typescript
+        - gulp
+        - react-tools
+        - browserify
+        - webpack
